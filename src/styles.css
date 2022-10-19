@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.login {
+  font-family: "Times New Roman", Times, serif;
+}
+.container {
+  background-image: linear-gradient(blue, green);
+  margin: 0%;
+  padding: 0%;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+}
+
+.ui-form {
+  background-color: lavender;
+  height: 300px;
+  border: 1px solid;
+  width: 500px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  height: auto;
+  margin-top: 10px;
+  box-shadow: 5px 10px #888888;
+}
+
+.field {
+  padding-block: 5px;
+}
+.field > label {
+  padding: 10px;
+  display: flex;
+  font-size: large;
+  margin-left: 17px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.field > input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  width: 90%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.ui-button {
+  width: 90%;
+  height: 40px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background-image: linear-gradient(blue, green);
+}
+
+.ui-button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.error {
+  color: red;
+  display: inline;
+}
+
+.ui-message {
+}
